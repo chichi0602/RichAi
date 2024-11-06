@@ -1,0 +1,34 @@
+.navbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover; /* 將背景圖片擴展以填滿整個畫面 */
+    background-repeat: no-repeat;
+    background-image: url(../img/headerbg.svg);  
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
